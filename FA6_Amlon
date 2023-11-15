@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = en>
+<html>
     <head>
         <title>Formative Assessment 6</title>
         <meta type = "author" name = "Amlon">
@@ -16,15 +16,15 @@
             border-radius: 15%;
             background: green;
             color: white;
-            font-size: 110%;
+            font-size: 140%;
             padding: 0.3%;
             margin: 5%;
         }
 
         #a1:visited{
-            border: 1px solid orange;
+            border: 1px solid red;
             border-radius: 15%;
-            background-color: orange;
+            background-color: red;
             color: black;
             font-size: 110%;
             margin: 5%;
@@ -48,13 +48,13 @@
             border-radius: 15%;
             background:blue;
             color:white;
-            font-size: 110%;
+            font-size: 140%;
             padding: 0.3%;
             margin: 5%;
         }
         #a2:visited{
-            border: 1px solid yellowgreen;
-            background: yellowgreen;
+            border: 1px solid orange;
+            background: orange;
             color:black;
         }
 
@@ -65,14 +65,14 @@
         }
 
         #a2:active{
-            border: 1px solid darkolivegreen;
-            background: darkolivegreen;
+            border: 1px solid yelloworange;
+            background: yelloworange;
         }
 
         #div1{
-            width: 16%;
-            padding-bottom: 4%;
-            height: 4%;
+            width: 30%;
+            padding-bottom: 5%;
+            height: 5%;
             border: 3px solid black;
         }
         #div1:target{
@@ -82,9 +82,9 @@
 
         #div2{
             margin-top: 4%;
-            width: 16%;
-            padding-bottom: 4%;
-            height: 4%;
+            width: 30%;
+            padding-bottom: 5%;
+            height: 5%;
             border: 3px solid black;
         }
 
@@ -98,14 +98,14 @@
 
     <body>
         <div>
-            <a id = "a1" href = "#div1"> First Link</a>  
-            <a id = "a2" href = "#div2"> Second Link</a>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div id = "div1"> Div 1 here</div>
-            <div id = "div2"> Div 2 here</div>
+          <a id = "a1" href = "#div1"> First Link</a>  
+          <a id = "a2" href = "#div2"> Second Link</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div id = "div1"> Div 1 </div>
+         <div id = "div2"> Div 2 div>
         </div>
         
     </body>
