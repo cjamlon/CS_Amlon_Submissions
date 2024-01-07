@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, inital scale=1.0">
+        <title> Amlon In-progress website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="placeholder.jfif"></a>
+                <div class="nav-links"   id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-align-justify" onclick="showMenu"></i>
+            </nav>
+            <h1> About us</h1>
+
+
+        </section>
+        <!-----about us content-->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1>About Us</h1>
+                <p>This website was to as a way for me to show the endangered species we have in the Philippines but also as a way to learn.</p>
+                <a href=""></a>
+                </div>
+                <div class="about-col">
+                    <img src="Images/AboutUs.jpg";
+
+            </div>
+        </section>
+
+       <!------About Us------>
+       <section class="footer">
+        <h4></h4>
+        <p></p>
+       </section>
+       
+       <!--------JavaScript for Toggle Menu-->
+       <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function showMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

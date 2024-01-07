@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, inital scale=1.0">
+        <title> Amlon In-progress website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="placeholder.jfif"></a>
+                <div class="nav-links"   id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-align-justify" onclick="showMenu"></i>
+            </nav>
+            <div class="text-box">
+                <h1> List of animals</h1>
+                <a href="Tamaraw.html">
+                    <img src="Images/Tamaraw.jpeg" alt="Tamaraw.html" style="border-radius:50%;width:100px;height:100px;">
+                </a>
+            </div>
+
+
+        </section>
+
+       <!------About Us------>
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>This website was to as a way for me to show the endangered species we have in the Philippines but also as a way to</p>
+       </section>
+       
+       <!--------JavaScript for Toggle Menu-->
+       <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function showMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
